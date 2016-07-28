@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--时间选择样式抽取-->
+    <style name="datepicker_style">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="com.example.gk.customdatepicker:lineColor">@color/colorAccent</item>
+        <item name="com.example.gk.customdatepicker:lineHeight">6</item>
+        <item name="com.example.gk.customdatepicker:itemNumber">3</item>
+        <item name="com.example.gk.customdatepicker:maskHight">32dp</item>
+        <item name="com.example.gk.customdatepicker:noEmpty">true</item>
+        <item name="com.example.gk.customdatepicker:normalTextColor">#666</item>
+        <item name="com.example.gk.customdatepicker:selecredTextColor">#000</item>
+        <item name="com.example.gk.customdatepicker:normalTextSize">14dp</item>
+        <item name="com.example.gk.customdatepicker:selecredTextSize">20dp</item>
+        <item name="com.example.gk.customdatepicker:unitHight">50dp</item>
+    </style>
+
+    <!--圆角dialog样式-->
+    <style name="customDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 背景是否透明 -->
+    </style>
+</resources>
